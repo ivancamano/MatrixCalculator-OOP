@@ -1,4 +1,4 @@
-**MATRIXPLUS **
+MATRIXPLUS 
      - Matrixplus is a Java-based calculator that solves basic operations of matrices. It contains addition, subtraction, multiplication, determinants, and matrix transposition. The idea of this project was to lessen the time consumed of the students while solving problems regarding matrices. It has a simple design made with scenebuilder and a user-friendly UI making the application easy-to-use. 
 
 **TECHNOLOGY USED:**
