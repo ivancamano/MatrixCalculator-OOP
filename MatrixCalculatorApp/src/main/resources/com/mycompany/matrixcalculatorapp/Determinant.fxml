@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="299.0" prefWidth="398.0" style="-fx-background-color: #051650;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.matrixcalculatorapp.DeterminantController">
+   <children>
+      <ImageView fx:id="determinantText" fitHeight="299.0" fitWidth="398.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../bg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="57.0" layoutY="25.0" text="Choose Matrix Size:" textFill="WHITE" />
+      <Button fx:id="size2x2Button" layoutX="67.0" layoutY="57.0" mnemonicParsing="false" onAction="#handleSize2x2ButtonClick" prefHeight="26.0" prefWidth="50.0" text="2x2" />
+      <Button fx:id="size3x3Button" layoutX="188.0" layoutY="57.0" mnemonicParsing="false" onAction="#handleSize3x3ButtonClick" prefHeight="26.0" prefWidth="50.0" text="3x3" />
+      <Button fx:id="size4x4Button" layoutX="296.0" layoutY="57.0" mnemonicParsing="false" onAction="#handleSize4x4ButtonClick" prefHeight="26.0" prefWidth="50.0" text="4x4" />
+
+      <GridPane fx:id="matrixGridPane" alignment="TOP_CENTER" layoutX="149.0" layoutY="113.0" prefHeight="18.0" prefWidth="126.0">
+        
+      </GridPane>
+      <Button fx:id="calculate" layoutX="141.0" layoutY="243.0" mnemonicParsing="false" onAction="#calculateDeterminant" prefHeight="26.0" prefWidth="143.0" text="Calculate Determinant" />
+      <Text fx:id="resultText" fill="WHITE" layoutX="136.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="153.60003662109375" />
+   </children>
+</AnchorPane>

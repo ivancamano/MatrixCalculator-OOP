@@ -1,0 +1,10 @@
+com\mycompany\matrixcalculatorapp\SubtractController.class
+com\mycompany\matrixcalculatorapp\TransposeController.class
+com\mycompany\matrixcalculatorapp\MultiplicationController.class
+com\mycompany\matrixcalculatorapp\OperationsController.class
+com\mycompany\matrixcalculatorapp\DeterminantController.class
+com\mycompany\matrixcalculatorapp\AddController.class
+module-info.class
+com\mycompany\matrixcalculatorapp\MatrixBoxes.class
+com\mycompany\matrixcalculatorapp\PrimaryController.class
+com\mycompany\matrixcalculatorapp\App.class
